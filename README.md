@@ -52,9 +52,10 @@ To identify key predictors of hospital readmission and understand how demographi
 
 ### 6. Treatment Type Comparison
 - Assessed variation in readmission across treatment categories
-
-### 7.- **Compounded risk effect observed**  
-- Patients with both high prior readmissions and multiple comorbidities showed the highest likelihood of readmission, indicating a cumulative risk pattern.
+  
+### 7. Combined Risk Factor Analysis
+- Analyzed interaction between prior readmissions and comorbidity burden
+- Identified high-risk patient groups based on multiple clinical factors
 
 ---
 
@@ -71,6 +72,9 @@ To identify key predictors of hospital readmission and understand how demographi
 
 - **Demographic factors have weaker influence**  
   Age and gender show variation but are less predictive compared to clinical factors.
+
+- **Compounded risk effect observed**  
+  Patients with both high prior readmissions and multiple comorbidities showed the highest likelihood of readmission, indicating a cumulative risk pattern.
 
 ---
 
