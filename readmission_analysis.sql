@@ -56,20 +56,6 @@ ORDER BY length_of_stay desc;
 
 
 
---age impact
-
-SELECT 
-    age,
-    COUNT(*) AS total,
-    SUM(CAST(label AS INT)) AS readmitted,
-    (SUM(CAST(label AS FLOAT)) / COUNT(*)) AS rate
-FROM readmission
-GROUP BY age 
-ORDER BY age desc;
-
---conclusion " As age increases readmission risk also increases."
-
-
 --Demographics (Age + Gender)
 
 SELECT 
