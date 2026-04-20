@@ -70,19 +70,19 @@ ORDER BY age desc;
 --conclusion " As age increases readmission risk also increases."
 
 
-
---gender
+--Demographics (Age + Gender)
 
 SELECT 
+    age,
     gender,
     COUNT(*) AS total,
     SUM(CAST(label AS INT)) AS readmitted,
     (SUM(CAST(label AS FLOAT)) / COUNT(*)) AS rate
 FROM readmission
-GROUP BY  gender
+GROUP BY age, gender
 ORDER BY rate DESC;
 
---conclusion "gender type shows limited variation in readmission risk compared to clinical history"
+--conclusion "Certain demographic groups show variation in readmission, though less significant than clinical factors."
 
 
 --Treatment variations
