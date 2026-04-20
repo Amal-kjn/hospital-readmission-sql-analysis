@@ -35,6 +35,31 @@ To identify key predictors of hospital readmission and understand how demographi
 
 ## 🔍 Analysis Performed
 
+### 1. Overall Readmission Rate
+- Calculated total readmissions across the dataset
+
+### 2. Previous Readmissions Analysis
+- Examined relationship between previous hospitalizations and future readmission risk
+
+### 3. Comorbidity Impact
+- Analyzed how multiple co-existing conditions affect readmission likelihood
+
+### 4. Length of Stay
+- Evaluated whether longer hospital stays correlate with higher readmission rates
+
+### 5. Demographic Analysis
+- Compared readmission trends across age and gender groups
+
+### 6. Treatment Type Comparison
+- Assessed variation in readmission across treatment categories
+
+### 7. Combined Risk Factor Analysis
+- Analyzed interaction between prior readmissions and comorbidity burden  
+- Identified high-risk patient groups based on multiple clinical factors
+
+---
+
+
 ## 📈 Key Insights
 
 - **Previous Readmissions are the strongest predictor**  
@@ -50,26 +75,7 @@ To identify key predictors of hospital readmission and understand how demographi
   Age and gender showed variation but no strong consistent trend compared to clinical variables.
 
 - **Compounded risk effect observed**  
-  Patients with both high prior readmissions and multiple comorbidities showed the highest readmission rates (>90%), indicating cumulative risk.
-
----
-
-## 📈 Key Insights
-
-- **Previous Readmissions are the strongest predictor**  
-  Patients with prior hospitalizations show significantly higher risk of future readmission.
-
-- **Comorbidity burden increases risk**  
-  Patients with multiple conditions are more likely to be readmitted.
-
-- **Length of stay correlates with readmission**  
-  Longer hospital stays indicate higher severity, leading to increased readmission probability.
-
-- **Demographic factors have weaker influence**  
-  Age and gender show variation but are less predictive compared to clinical factors.
-
-- **Compounded risk effect observed**  
-  Patients with both high prior readmissions and multiple comorbidities showed the highest likelihood of readmission, indicating a cumulative risk pattern.
+  Patients with both high prior readmissions and multiple comorbidities showed the highest readmission rates (>90%), indicating cumulative risk
 
 ---
 
