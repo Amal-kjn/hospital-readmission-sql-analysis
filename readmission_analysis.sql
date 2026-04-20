@@ -26,21 +26,6 @@ ORDER BY prev_readmissions;
 
 
 
---Length of Stay Analysis
-
-SELECT 
-    length_of_stay,
-    COUNT(*) AS total,
-    SUM(CAST(label AS INT)) AS readmitted,
-    (SUM(CAST(label AS FLOAT)) / COUNT(*)) AS rate
-FROM readmission
-GROUP BY length_of_stay
-ORDER BY length_of_stay desc;
-
---conclusion " As length of stay at hospital increases readmission risk also increases.
-
-
-
 --comorbidities impact
 
 SELECT 
@@ -53,6 +38,21 @@ GROUP BY comorbidities_count
 ORDER BY comorbidities_count;
 
 --conclusion " Higher comorbidity burden correlates with increased readmission risk."
+
+
+
+--Length of Stay Analysis
+
+SELECT 
+    length_of_stay,
+    COUNT(*) AS total,
+    SUM(CAST(label AS INT)) AS readmitted,
+    (SUM(CAST(label AS FLOAT)) / COUNT(*)) AS rate
+FROM readmission
+GROUP BY length_of_stay
+ORDER BY length_of_stay desc;
+
+--conclusion " As length of stay at hospital increases readmission risk also increases.
 
 
 
