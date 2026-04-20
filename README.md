@@ -35,27 +35,22 @@ To identify key predictors of hospital readmission and understand how demographi
 
 ## 🔍 Analysis Performed
 
-### 1. Overall Readmission Rate
-- Calculated total readmissions across the dataset
+## 📈 Key Insights
 
-### 2. Previous Readmissions Analysis
-- Examined relationship between previous hospitalizations and future readmission risk
+- **Previous Readmissions are the strongest predictor**  
+  Readmission rate increased sharply from ~25% (no prior readmissions) to >90% (≥2 prior readmissions).
 
-### 3. Comorbidity Impact
-- Analyzed how multiple co-existing conditions affect readmission likelihood
+- **Comorbidity burden increases risk**  
+  Patients with higher comorbidity counts showed a consistent rise in readmission probability.
 
-### 4. Length of Stay
-- Evaluated whether longer hospital stays correlate with higher readmission rates
+- **Length of stay correlates with readmission**  
+  Patients with longer hospital stays demonstrated higher readmission rates, suggesting severity-driven risk.
 
-### 5. Demographic Analysis
-- Compared readmission trends across age and gender groups
+- **Demographic factors have weaker influence**  
+  Age and gender showed variation but no strong consistent trend compared to clinical variables.
 
-### 6. Treatment Type Comparison
-- Assessed variation in readmission across treatment categories
-  
-### 7. Combined Risk Factor Analysis
-- Analyzed interaction between prior readmissions and comorbidity burden
-- Identified high-risk patient groups based on multiple clinical factors
+- **Compounded risk effect observed**  
+  Patients with both high prior readmissions and multiple comorbidities showed the highest readmission rates (>90%), indicating cumulative risk.
 
 ---
 
