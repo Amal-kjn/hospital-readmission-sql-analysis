@@ -53,6 +53,9 @@ To identify key predictors of hospital readmission and understand how demographi
 ### 6. Treatment Type Comparison
 - Assessed variation in readmission across treatment categories
 
+### 7.- **Compounded risk effect observed**  
+- Patients with both high prior readmissions and multiple comorbidities showed the highest likelihood of readmission, indicating a cumulative risk pattern.
+
 ---
 
 ## 📈 Key Insights
