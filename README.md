@@ -38,7 +38,7 @@ To identify key predictors of hospital readmission and understand how demographi
 ### 1. Overall Readmission Rate
 - Calculated total readmissions across the dataset
 
-### 2. Prior Readmissions Analysis
+### 2. Previous Readmissions Analysis
 - Examined relationship between previous hospitalizations and future readmission risk
 
 ### 3. Comorbidity Impact
